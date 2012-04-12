@@ -1,0 +1,6 @@
+<extension point="ruuk.addon.repository"
+           name="ruuk's addon repository">
+  <info compressed="true">http://mirrors.xbmc.org/addons/dharma-pre/addons.xml</info>
+  <checksum>http://mirrors.xbmc.org/addons/dharma-pre/addons.xml.md5</checksum>
+  <datadir zip="true">http://mirrors.xbmc.org/addons/dharma-pre</datadir>
+</extension>
