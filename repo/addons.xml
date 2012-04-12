@@ -54,4 +54,47 @@ What it doesn't do:
 			</description>
 		</extension>
 	</addon>
+	<addon id="script.facebook.media"
+		name="Facebook Media"
+		version="0.6.9"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.module.simplejson" version="2.0.9"/>
+			<import addon="script.web.viewer" />
+		</requires>
+		<extension point="xbmc.python.script"
+			library="default.py">
+			<provides>executable</provides>
+			<provides>image</provides>
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Browse Facebook photos and videos</summary>
+			<description lang="en">Browse your and your friends' photos and videos. View and add comments and likes. View image tags.</description>
+		</extension>
+	</addon>
+	<addon id="script.module.sharesocial"
+		name="Share Social"
+		version="0.1.5"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+		</requires>
+  
+		<extension point="xbmc.python.script"
+			library="share.py">
+			<provides>executable</provides>
+		</extension>
+  
+		<extension point="xbmc.python.module"
+			library="lib" />
+       
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Social Sharing Module</summary>
+			<description>Allows addons to share between social web entities</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 </addons>
