@@ -97,4 +97,110 @@ What it doesn't do:
 			<platform>all</platform>
 		</extension>
 	</addon>
+	<addon id="plugin.image.flickr"
+		name="flickr"
+		version="0.9.95"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.module.elementtree" version="1.2.7"/>
+		</requires>
+
+		<extension point="xbmc.python.pluginsource"
+			library="default.py">
+			<provides>image</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">flickrXBMC: flickr on XBMC</summary>
+			<summary lang="de">flickrXBMC: flickr in XBMC</summary>
+			<summary lang="es">flickrXBMC: flickr en XBMC</summary>
+			<summary lang="nl">flickrXBMC: Flickr op XBMC</summary>
+			<description>flickrXBMC allows you to: Browse your photostream, collections, sets, galleries, tags, places, and favorites. Browse your contacts and their content. Search you or your contacts photostream, or search flickr.</description>
+			<description lang="de">flickrXBMC ermöglicht Fotostreams, Sammlungen, Sets, Gallerien, Tags, Orte und Favoriten zu dursuchen. Durchsuche deine Freunde und deren Fotos. Durchsuche deine Fotos oder die deiner Freunde, oder durchsuche flickr allgemein.</description>
+			<description lang="es">flickrXBMC le permite: Busca en tu galería de fotos, colecciones, conjuntos, galerías, etiquetas, lugares, y favoritos. Busque sus contactos y su contenido. Buscar contactos que usted o su galería de fotos, o flickr de búsqueda.</description>
+			<description lang="nl">flickrXBMC geeft u de mogelijkheid om te bladeren door uw photostreams, verzamelingen, sets, galerijen, tags, plaatsen en favorieten. Bekijk uw contacten en hun foto's. Zoek door uw eigen of van uw contacts de photostreams of door geheel Flickr.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="plugin.image.google"
+		name="google"
+		version="0.9.2"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.module.simplejson" version="2.0.9"/>
+		</requires>
+
+		<extension point="xbmc.python.pluginsource"
+			library="default.py">
+			<provides>image</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Plugin to search and browse google images</summary>
+			<description>Search, view, and save Google Images. Includes advanced search and search history. Note: only 32 images per search - a Google limit.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="plugin.image.picasa"
+		name="Picasa"
+		version="0.8.9"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.module.elementtree" version="1.2.7"/>
+		</requires>
+
+		<extension point="xbmc.python.pluginsource"
+			library="default.py">
+			<provides>image</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Plugin to browse picasa albums and photos/videos</summary>
+			<summary lang="nl">Blader door uw Picasa albums en afbeeldingen van u zelf of uw vrienden.</summary>
+
+			<description lang="en">Browse your picasa albums and tags. Browse your favorite user's albums, tags, and their favorite users. Search your photos/videos, your contact's photos/videos, and search Picasa. View maps of photos with geo location data.</description>
+			<description lang="nl">Blader door uw Picasa albums en afbeeldingen van u zelf of uw vrienden.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="script.evernote"
+		name="X-Note"
+		version="0.1.4"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.web.viewer" />
+		</requires>
+
+		<extension point="xbmc.python.script"
+			library="lib/xnote.py">
+			<provides>executable</provides>
+			<provides>image</provides>
+		</extension>
+            
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">X-Note: Access Evernote</summary>
+			<description>View Evernote notebooks and notes, create notes, save XBMC logs and screenshots to Evernote</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	<addon id="script.tvrage.com"
+		name="TVRage-Eps"
+		version="1.0.9"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+			<import addon="script.module.elementtree" version="1.2.7"/>
+			<import addon="script.module.simplejson" version="2.0.9"/>
+		</requires>
+		<extension point="xbmc.python.script"
+			library="default.py">
+			<provides>video executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary lang="en">Quickly see which of your favorite shows are on next, and browse episode lists.</summary>
+			<description lang="en">Search and save a list of your favorite shows to be automatically updated and sorted by what's on next and highlighted for what's on today and tomorrow. Shows next and previous episode details. Select a show to browse an episode list. Select an episode for a summary.</description>
+		</extension>
+	</addon>
 </addons>
