@@ -1,0 +1,2 @@
+#!/bin/sh
+md5sum < addons.xml > addons.md5
