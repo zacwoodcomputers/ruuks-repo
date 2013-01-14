@@ -203,9 +203,15 @@ What it doesn't do:
 			<description lang="en">Search and save a list of your favorite shows to be automatically updated and sorted by what's on next and highlighted for what's on today and tomorrow. Shows next and previous episode details. Select a show to browse an episode list. Select an episode for a summary.</description>
 		</extension>
 	</addon>
-	<addon id="screensaver.plugin.slideshow" name="Plugin Slideshow" version="0.0.2" provider-name="ruuk">
-		<extension point="xbmc.ui.screensaver" library="default.py"/>
-		<extension point="xbmc.service" library="service.py" start="login"></extension>
+	<addon 	id="screensaver.plugin.slideshow"
+		name="Plugin Slideshow"
+		version="0.0.3"
+		provider-name="Rick Phillips (ruuk)">
+		<requires>
+			<import addon="xbmc.python" version="2.0"/>
+		</requires>
+		<extension point="xbmc.ui.screensaver" library="default.py" />
+		<extension point="xbmc.service" library="service.py" start="login" />
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Screensaver that displays an image slideshow from a plugin</summary>
 			<description lang="en">The Slideshow screensaver will show you a slide show of images using various transition effects. It can be configured to show images from image plugins installed on XBMC</description>
