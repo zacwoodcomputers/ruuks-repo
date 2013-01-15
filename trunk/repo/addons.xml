@@ -99,7 +99,7 @@ What it doesn't do:
 	</addon>
 	<addon id="plugin.image.flickr"
 		name="flickr"
-		version="0.9.100"
+		version="0.9.101"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -204,7 +204,7 @@ What it doesn't do:
 		</extension>
 	</addon>
 	<addon 	id="screensaver.plugin.slideshow"
-		name="Plugin Slideshow"
+		name="Plugin Slideshow Screensaver"
 		version="0.0.3"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
