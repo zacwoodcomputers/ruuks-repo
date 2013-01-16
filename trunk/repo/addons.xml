@@ -99,7 +99,7 @@ What it doesn't do:
 	</addon>
 	<addon id="plugin.image.flickr"
 		name="flickr"
-		version="0.9.102"
+		version="0.9.103"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
