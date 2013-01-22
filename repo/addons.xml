@@ -21,7 +21,7 @@
 	</addon>
 	<addon id="script.web.viewer"
 		name="Web Viewer"
-		version="0.9.3"
+		version="0.9.4"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -56,7 +56,7 @@ What it doesn't do:
 	</addon>
 	<addon id="script.facebook.media"
 		name="Facebook Media"
-		version="0.7.7"
+		version="0.7.8"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -77,7 +77,7 @@ What it doesn't do:
 	</addon>
 	<addon id="script.module.sharesocial"
 		name="Share Social"
-		version="0.1.9"
+		version="0.2.0"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -165,7 +165,7 @@ What it doesn't do:
 	</addon>
 	<addon id="script.evernote"
 		name="X-Note"
-		version="0.1.9"
+		version="0.2.0"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -180,7 +180,7 @@ What it doesn't do:
             
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">X-Note: Access Evernote</summary>
-			<description>View Evernote notebooks and notes, create notes, save XBMC logs and screenshots to Evernote</description>
+			<description>View and manage your Evernote notebooks and notes. Create notes and save XBMC logs and screenshots to Evernote</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -205,7 +205,7 @@ What it doesn't do:
 	</addon>
 	<addon 	id="screensaver.plugin.slideshow"
 		name="Plugin Slideshow Screensaver"
-		version="0.0.3"
+		version="0.0.4"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
