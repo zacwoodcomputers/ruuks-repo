@@ -138,6 +138,7 @@ What it doesn't do:
 		<extension point="xbmc.addon.metadata">
 			<summary>Plugin to search and browse google images</summary>
 			<description>Search, view, and save Google Images. Includes advanced search and search history. Note: only 32 images per search - a Google limit.</description>
+			<disclaimer lang="en">API DEPRECATED BY GOOGLE - Will cease to function May 2014</disclaimer>
 			<platform>all</platform>
 		</extension>
 	</addon>
@@ -205,7 +206,7 @@ What it doesn't do:
 	</addon>
 	<addon 	id="screensaver.plugin.slideshow"
 		name="Plugin Slideshow Screensaver"
-		version="0.0.5"
+		version="0.0.6"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
