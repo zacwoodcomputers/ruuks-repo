@@ -57,7 +57,7 @@ What it doesn't do:
 	</addon>
 	<addon id="script.facebook.media"
 		name="Facebook Media"
-		version="0.8.1"
+		version="0.8.2"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
