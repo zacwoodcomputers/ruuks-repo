@@ -2,7 +2,7 @@
 <addons>
 	<addon id="script.forum.browser"
 		name="Forum Browser"
-		version="1.4.7"
+		version="1.4.8"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
