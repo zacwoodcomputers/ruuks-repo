@@ -37,7 +37,7 @@
 	</addon>
 	<addon id="script.web.viewer"
 		name="Web Viewer"
-		version="0.9.11"
+		version="0.9.12"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
