@@ -181,7 +181,7 @@ What it doesn't do:
 	</addon>
 	<addon id="plugin.image.google"
 		name="google"
-		version="0.9.3"
+		version="0.9.4"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
@@ -194,8 +194,7 @@ What it doesn't do:
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>Plugin to search and browse google images</summary>
-			<description>Search, view, and save Google Images. Includes advanced search and search history. Note: only 32 images per search - a Google limit.</description>
-			<disclaimer lang="en">API DEPRECATED BY GOOGLE - Will cease to function May 2014</disclaimer>
+			<description>Search, view, and save Google Images. Includes advanced search and search history.</description>
 			<platform>all</platform>
 		</extension>
 	</addon>
