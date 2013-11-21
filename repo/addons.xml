@@ -262,7 +262,7 @@ What it doesn't do:
 	</addon>
 	<addon 	id="screensaver.plugin.slideshow"
 		name="Plugin Slideshow Screensaver"
-		version="0.0.7"
+		version="0.0.8"
 		provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0"/>
