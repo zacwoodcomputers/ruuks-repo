@@ -243,7 +243,7 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="script.evernote" name="X-Note" version="0.2.1" provider-name="Rick Phillips (ruuk)">
+	<addon id="script.evernote" name="X-Note" version="0.2.2" provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0" />
 			<import addon="script.web.viewer" />
