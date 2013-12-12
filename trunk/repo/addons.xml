@@ -289,9 +289,10 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.0.9" provider-name="Rick Phillips (ruuk)">
+	<addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.0.10" provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="plugin.video.youtube" />
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="geekandsundry.py">
 			<provides>video</provides>
@@ -301,7 +302,7 @@
 			<description>Geek &amp; Sundry videos such as TableTop, The Guild and Space Janitors</description>
 			<platform>all</platform>
 			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<forum></forum>
+			<forum>http://forum.xbmc.org/showthread.php?tid=180283</forum>
 			<source>http://github.com/ruuk/plugin.video.geekandsundry</source>
 		</extension>
 	</addon>
