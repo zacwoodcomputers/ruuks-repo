@@ -289,7 +289,7 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.0.6" provider-name="Rick Phillips (ruuk)">
+	<addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.0.7" provider-name="Rick Phillips (ruuk)">
 		<requires>
 			<import addon="xbmc.python" version="2.0" />
 		</requires>
