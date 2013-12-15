@@ -307,7 +307,7 @@
     </extension>
   </addon>
 
-  <addon id="script.tvrage.com" name="TVRage-Eps" version="1.0.14" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.tvrage.com" name="TVRage-Eps" version="1.0.15" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.elementtree" version="1.2.7" />
