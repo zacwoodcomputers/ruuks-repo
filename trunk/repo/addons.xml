@@ -39,7 +39,7 @@
     </extension>
   </addon>
 
-  <addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.1.0" provider-name="Rick Phillips (ruuk)">
+  <addon id="plugin.video.geekandsundry" name="Geek &amp; Sundry" version="0.1.1" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="plugin.video.youtube" version="4.4.6" />
@@ -138,7 +138,7 @@
   	</extension>
   </addon>
 
-  <addon id="screensaver.plugin.slideshow" name="Plugin Slideshow" version="0.0.9" provider-name="Rick Phillips (ruuk)">
+  <addon id="screensaver.plugin.slideshow" name="Plugin Slideshow" version="0.0.10" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
