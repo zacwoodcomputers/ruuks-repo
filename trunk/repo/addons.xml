@@ -39,7 +39,7 @@
     </extension>
   </addon>
 
-  <addon id="script.bluray.com" name="Blu-ray.com" version="0.0.5" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.bluray.com" name="Blu-ray.com" version="0.0.6" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.requests" version="1.1.0"/>
