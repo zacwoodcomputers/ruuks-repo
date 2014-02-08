@@ -1,0 +1,2 @@
+#!/bin/sh
+svn add --force . ; svn commit -m "updating repo"
