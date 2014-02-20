@@ -240,7 +240,7 @@
 
   <addon id="script.forum.browser"
          name="Forum Browser"
-         version="2.1.50"
+         version="2.1.51"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
