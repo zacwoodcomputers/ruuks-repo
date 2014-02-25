@@ -256,7 +256,7 @@
 
   <addon id="script.forum.browser"
          name="Forum Browser"
-         version="2.1.56"
+         version="2.1.57"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -311,7 +311,7 @@
 
   <addon id="script.module.sharesocial"
          name="Share Social"
-         version="0.2.6"
+         version="0.2.7"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.0"/>
