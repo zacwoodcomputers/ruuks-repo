@@ -57,7 +57,7 @@
   	</extension>
   </addon>
 
-  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.227.1" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.304.0" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -134,11 +134,11 @@
   	</extension>
   </addon>
 
-  <addon id="script.web.viewer" name="Web Viewer" version="0.9.19" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.web.viewer" name="Web Viewer" version="0.9.20" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.mechanize" version="0.2.6" />
-  		<import addon="script.module.youtube.dl" version="14.227.1"/>
+  		<import addon="script.module.youtube.dl" version="14.304.0"/>
   	</requires>
   	<extension point="xbmc.python.script" library="lib/webviewer/webviewer.py">
   		<provides>executable</provides>
@@ -257,13 +257,13 @@
 
   <addon id="script.forum.browser"
          name="Forum Browser"
-         version="2.1.62"
+         version="2.1.63"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.module.simplejson" version="2.0.9"/>
       <import addon="script.web.viewer" version="0.9.17"/>
-      <import addon="script.module.youtube.dl" version="14.227.1"/>
+      <import addon="script.module.youtube.dl" version="14.304.0"/>
       <import addon="script.module.password.storage" version="0.1.0" />
   	<import addon="script.module.requests2" version="2.2.1"/>
     </requires>
