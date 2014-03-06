@@ -208,7 +208,7 @@
 
   <addon id="plugin.image.picasa"
          name="PicasaWeb"
-         version="1.0.4"
+         version="1.0.5"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
