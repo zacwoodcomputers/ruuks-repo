@@ -39,6 +39,24 @@
     </extension>
   </addon>
 
+  <addon id="service.xbmc.tts"
+         name="XBMC TTS"
+         version="0.0.1"
+         provider-name="Rick Phillips (ruuk)">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login"></extension>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Text to speech for XBMC</summary>
+      <description lang="en">Text to speech for XBMC</description>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+      <forum></forum>
+      <source></source>
+    </extension>
+  </addon>
+
   <addon id="script.module.password.storage" name="Password Storage" version="0.1.4" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
