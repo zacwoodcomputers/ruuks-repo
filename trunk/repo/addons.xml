@@ -45,6 +45,7 @@
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
+      <import addon="script.module.comtypes" version="1.0.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login"></extension>
     <extension point="xbmc.addon.metadata">
@@ -270,6 +271,20 @@
   		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   		<forum>http://forum.xbmc.org/showthread.php?tid=83496</forum>
   		<source>http://github.com/ruuk/plugin.image.google</source>
+  	</extension>
+  </addon>
+
+  <addon id="script.module.comtypes" name="comtypes" version="1.0.0" provider-name="Thomas Heller">
+  	<requires>
+  		<import addon="xbmc.python" version="2.1.0" />
+  	</requires>
+  	<extension point="xbmc.python.module" library="lib" />
+  	<extension point="xbmc.addon.metadata">
+  		<platform>all</platform>
+  		<summary lang="en">comtypes is a pure Python, lightweight COM client and server framework, based on the ctypes Python FFI package</summary>
+  		<description lang="en">comtypes allows to define, call, and implement custom and dispatch-based COM interfaces in pure Python. It works on Windows, 64-bit Windows, and Windows CE</description>
+  		<license>MIT License</license>
+  		<source>http://sourceforge.net/projects/comtypes/</source>
   	</extension>
   </addon>
 
