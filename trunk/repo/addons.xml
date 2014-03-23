@@ -41,7 +41,7 @@
 
   <addon id="service.xbmc.tts"
          name="XBMC TTS"
-         version="0.0.24"
+         version="0.0.25"
          provider-name="Rick Phillips (ruuk), pvagner">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
