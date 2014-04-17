@@ -47,6 +47,7 @@
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.module.beautifulsoup4" version="4.3.1" />
       <import addon="script.module.comtypes" version="1.0.0"/>
+      <import addon="script.library.xbmc.tts" version="0.0.1"/>
     </requires>
     <extension point="xbmc.service" library="main.py" start="login"></extension>
     <extension point="xbmc.addon.metadata">
@@ -54,12 +55,13 @@
       <description lang="en">Text to speech for XBMC</description>
       <platform>all</platform>
       <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-      <forum></forum>
-      <source></source>
+      <forum>http://forum.xbmc.org/showthread.php?tid=117199</forum>
+      <source>https://github.com/ruuk/service.xbmc.tts</source>
+  	<website>http://ruuk.github.io/service.xbmc.tts</website>
     </extension>
   </addon>
 
-  <addon id="script.module.password.storage" name="Password Storage" version="0.1.4" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.password.storage" name="Password Storage" version="0.1.5" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -151,6 +153,22 @@
   		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   		<forum>http://forum.xbmc.org/showthread.php?tid=82500</forum>
   		<source>http://github.com/ruuk/script.facebook.media</source>
+  	</extension>
+  </addon>
+
+  <addon id="script.library.xbmc.tts" name="XBMC TTS Enabler" version="0.0.1" provider-name="Rick Phillips (ruuk)">
+  	<requires>
+  		<import addon="xbmc.python" version="2.1.0" />
+  	</requires>
+  	<extension point="xbmc.python.library" library="main.py" />
+  	<extension point="xbmc.addon.metadata">
+  		<platform>all</platform>
+  		<summary lang="en">Handles enabling/disabling of XBMC TTS</summary>
+  		<description lang="en">Handles enabling/disabling of XBMC TTS</description>
+  		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  		<forum>http://forum.xbmc.org/showthread.php?tid=117199</forum>
+  		<source>https://github.com/ruuk/service.xbmc.tts</source>
+  		<website>http://ruuk.github.io/service.xbmc.tts</website>
   	</extension>
   </addon>
 
