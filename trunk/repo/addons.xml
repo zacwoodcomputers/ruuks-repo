@@ -47,7 +47,7 @@
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.module.beautifulsoup4" version="4.3.1" />
       <import addon="script.module.comtypes" version="1.0.0"/>
-      <import addon="script.library.xbmc.tts" version="0.0.1"/>
+      <import addon="script.library.xbmc.tts" version="0.0.2"/>
     </requires>
     <extension point="xbmc.service" library="main.py" start="login"></extension>
     <extension point="xbmc.addon.metadata">
@@ -156,7 +156,7 @@
   	</extension>
   </addon>
 
-  <addon id="script.library.xbmc.tts" name="XBMC TTS Enabler" version="0.0.1" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.library.xbmc.tts" name="XBMC TTS Enabler" version="0.0.2" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
