@@ -15,7 +15,7 @@ if [ -n "$(git status --porcelain)" ]; then
 	exit
 fi
 echo "Creating .zip file"
-git archive --format=zip --output=$HOME/git/repo/$1/$1"-"$2.zip --prefix=$1/ master
+$HOME/git/repo/git-archive-all --prefix=$1/ $HOME/git/repo/$1/$1"-"$2.zip
 echo "Copying changelog.txt"
 /bin/cp -rf $HOME/git/$1/changelog.txt $HOME/git/repo/$1/changelog-$2.txt
 cd $HOME/git/repo/
