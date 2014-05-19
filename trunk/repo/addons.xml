@@ -41,7 +41,7 @@
 
   <addon id="service.xbmc.tts"
          name="XBMC TTS"
-         version="0.0.54"
+         version="0.0.55"
          provider-name="Rick Phillips (ruuk), pvagner">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -76,7 +76,7 @@
   	</extension>
   </addon>
 
-  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.304.0" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.304.1" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
