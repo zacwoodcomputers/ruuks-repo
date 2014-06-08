@@ -41,7 +41,7 @@
 
   <addon id="service.xbmc.tts"
          name="XBMC TTS"
-         version="0.0.69"
+         version="0.0.70"
          provider-name="Rick Phillips (ruuk), pvagner">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -383,6 +383,24 @@
       <summary lang="en">Social Sharing Module</summary>
       <description>Allows addons to share between social web entities</description>
   	<platform>all</platform>
+    </extension>
+  </addon>
+
+  <addon id="script.ruuk.testing"
+         name="ruuk's Testing Addon"
+         version="0.0.3"
+         provider-name="Rick Phillips (ruuk)">
+    <requires>
+      <import addon="xbmc.python" version="2.1.1"/>
+    </requires>
+    <extension point="xbmc.python.script"
+               library="default.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <summary lang="en">Testing Addon</summary>
+      <description lang="en">Testing Addon</description>
     </extension>
   </addon>
 
