@@ -76,7 +76,7 @@
   	</extension>
   </addon>
 
-  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.519.1" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.624.0" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -404,7 +404,7 @@
     </extension>
   </addon>
 
-  <addon id="plugin.image.flickr" name="flickr" version="1.0.4" provider-name="Rick Phillips (ruuk)">
+  <addon id="plugin.image.flickr" name="flickr" version="1.0.5" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.elementtree" version="1.2.7" />
