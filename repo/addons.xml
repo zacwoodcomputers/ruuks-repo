@@ -77,7 +77,7 @@
   	</extension>
   </addon>
 
-  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.624.0" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.youtube.dl" name="youtube-dl" version="14.810.0" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -85,14 +85,14 @@
   	<extension point="xbmc.addon.metadata">
   		<platform>all</platform>
   		<summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
-  		<description lang="en">Module providing access to youtube-dl video stream extraction for over 240 sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version.</description>
+  		<description lang="en">Module providing access to youtube-dl video stream extraction for over 270 sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version.</description>
   		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   		<forum></forum>
   		<source>http://github.com/ruuk/script.module.youtube.dl</source>
   	</extension>
   </addon>
 
-  <addon id="script.bluray.com" name="Blu-ray.com" version="0.1.2" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.bluray.com" name="Blu-ray.com" version="0.1.1" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.requests2" version="2.2.1"/>
@@ -203,6 +203,30 @@
   		<forum>http://forum.xbmc.org/showthread.php?tid=90007</forum>
   		<source>http://github.com/ruuk/script.web.viewer</source>
   	</extension>
+  </addon>
+
+  <addon id="service.pushbullet.com"
+         name="Pushbullet"
+         version="0.0.1"
+         provider-name="Rick Phillips (ruuk)">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+      <import addon="script.module.youtube.dl" version="14.304.0"/>
+      <import addon="script.module.password.storage" version="0.1.5" />
+  	<import addon="script.module.requests2" version="2.2.1"/>
+    </requires>
+    <extension point="xbmc.service" library="main.py" start="login"></extension>
+    <extension point="xbmc.python.script" library="default.py">
+      <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary></summary>
+      <description></description>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+      <forum></forum>
+      <source></source>
+    </extension>
   </addon>
 
   <addon id="script.evernote" name="X-Note (Evernote)" version="0.4.0" provider-name="Rick Phillips (ruuk)">
