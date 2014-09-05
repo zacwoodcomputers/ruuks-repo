@@ -59,7 +59,7 @@
     </extension>
   </addon>
 
-  <addon id="script.module.password.storage" name="Password Storage" version="0.1.8" provider-name="Rick Phillips (ruuk)">
+  <addon id="script.module.password.storage" name="Password Storage" version="0.1.9" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -137,7 +137,7 @@
   		<import addon="xbmc.python" version="2.1.0" />
   		<import addon="script.module.simplejson" version="2.0.9" />
   		<import addon="script.module.mechanize" version="0.2.6" />
-  		<import addon="script.module.password.storage" version="0.1.7" />
+  		<import addon="script.module.password.storage" version="0.1.9" />
   	</requires>
   	<extension point="xbmc.python.script" library="default.py">
   		<provides>executable</provides>
@@ -339,7 +339,7 @@
       <import addon="script.module.simplejson" version="2.0.9"/>
       <import addon="script.web.viewer" version="0.9.17"/>
       <import addon="script.module.youtube.dl" version="14.304.0"/>
-      <import addon="script.module.password.storage" version="0.1.7" />
+      <import addon="script.module.password.storage" version="0.1.9" />
   	<import addon="script.module.requests2" version="2.2.1"/>
     </requires>
     <extension point="xbmc.python.script"
