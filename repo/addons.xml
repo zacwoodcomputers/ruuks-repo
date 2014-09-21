@@ -227,7 +227,7 @@
 
   <addon id="service.pushbullet.com"
          name="Pushbullet"
-         version="0.1.0"
+         version="0.1.1"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
