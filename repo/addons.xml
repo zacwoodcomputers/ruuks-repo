@@ -113,7 +113,7 @@
 
   <addon id="script.module.oauth.helper"
          name="OAuth Helper"
-         version="0.0.3"
+         version="0.0.4"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -288,13 +288,13 @@
 
   <addon id="plugin.image.picasa"
          name="PicasaWeb"
-         version="1.0.14"
+         version="1.0.15"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.module.xbmcswift2" version="2.4.0" />
       <import addon="script.module.requests2" version="2.2.1"/>
-      <import addon="script.module.oauth.helper" version="0.0.3"/>
+      <import addon="script.module.oauth.helper" version="0.0.4"/>
     </requires>
 
     <extension point="xbmc.python.pluginsource"
