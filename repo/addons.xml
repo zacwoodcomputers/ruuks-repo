@@ -113,7 +113,7 @@
 
   <addon id="script.module.oauth.helper"
          name="OAuth Helper"
-         version="0.0.5"
+         version="0.0.6"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
