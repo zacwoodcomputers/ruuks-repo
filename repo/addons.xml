@@ -113,11 +113,11 @@
 
   <addon id="script.module.oauth.helper"
          name="OAuth Helper"
-         version="0.0.6"
+         version="0.0.7"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.requests2" version="2.2.1"/>
+  	<import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
@@ -377,7 +377,7 @@
 
   <addon id="script.forum.browser"
          name="Forum Browser"
-         version="2.1.69"
+         version="2.1.70"
          provider-name="Rick Phillips (ruuk)">
     <requires>
       <import addon="xbmc.python" version="2.14.0"/>
@@ -386,7 +386,7 @@
       <import addon="script.module.youtube.dl" version="14.925.0"/>
       <import addon="script.module.password.storage" version="0.1.9" />
   	<import addon="script.module.requests" version="2.3.0"/>
-      <import addon="script.module.oauth.helper" version="0.0.6"/>
+      <import addon="script.module.oauth.helper" version="0.0.7"/>
     </requires>
     <extension point="xbmc.python.script"
                library="default.py">
