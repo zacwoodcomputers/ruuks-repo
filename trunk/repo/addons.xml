@@ -452,7 +452,7 @@
 
   <addon id="service.pushbullet"
          name="Pushbullet"
-         version="0.8.8b"
+         version="0.8.10b"
          provider-name="muttley,Rick Phillips (ruuk)">
       <requires>
           <import addon="xbmc.addon" version="12.0.0"/>
