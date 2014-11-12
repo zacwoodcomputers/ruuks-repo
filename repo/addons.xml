@@ -259,7 +259,7 @@
   	</extension>
   </addon>
 
-  <addon id="screensaver.plugin.slideshow" name="Plugin Slideshow" version="0.0.11" provider-name="Rick Phillips (ruuk)">
+  <addon id="screensaver.plugin.slideshow" name="Plugin Slideshow" version="0.0.12" provider-name="Rick Phillips (ruuk)">
   	<requires>
   		<import addon="xbmc.python" version="2.1.0" />
   	</requires>
@@ -447,6 +447,29 @@
       <description>Allows addons to share between social web entities</description>
   	<platform>all</platform>
     </extension>
+  </addon>
+
+  <addon id="script.module.epg"
+         name="EPG"
+         version="0.0.1b"
+         provider-name="Rick Phillips (ruuk)">
+      <requires>
+          <import addon="xbmc.python" version="2.1.0"/>
+      </requires>
+      <extension point="xbmc.python.module" library="lib" />
+      <extension point="xbmc.python.script" library="test.py">
+          <provides>executable</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+          <summary lang="en">Episode Guide Window</summary>
+          <description lang="en"></description>
+          <disclaimer lang="en"></disclaimer>
+          <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007.</license>
+          <forum></forum>
+          <website></website>
+          <source></source>
+          <platform>all</platform>
+      </extension>
   </addon>
 
   <addon id="script.ruuk.testing"
