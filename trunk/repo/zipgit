@@ -1,23 +1,34 @@
 #/bin/bash
-if [ "$2" = "" ]
-then
-	echo "Needs Version!"
-	exit
-fi
-if [ -e $HOME/git/repo/$1/$1"-"$2.zip ]
-then
-	echo "Version Exists!"
-	exit
-fi
 cd $HOME/git/$1/
 if [ -n "$(git status --porcelain)" ]; then
 	echo "Addon needs a commit!"
 	exit
 fi
+
+target=$(cat addon.xml | egrep -o 'id="([^"]+)"' | cut -d \" -f 2)
+echo "Extracted ID: "$target
+version=$(cat addon.xml | grep -Pzom 1 '(?s)<addon[^>].*?version="([^"]+)"[^>].+?>' | egrep -o 'version="[^"]+"' | cut -d \" -f 2)
+echo "Extracted version: "$version
+
+if [ -e $HOME/git/repo/$1/$target"-"$version.zip ]
+then
+	echo "Version Exists!"
+	exit
+fi
+
+if [ ! -d $HOME/git/repo/$target/ ];
+then
+	echo "Creating target directory: "$target
+	mkdir $HOME/git/repo/$target/
+fi
 echo "Creating .zip file"
-$HOME/git/repo/git-archive-all --prefix=$1/ $HOME/git/repo/$1/$1"-"$2.zip
+$HOME/git/repo/git-archive-all --prefix=$target/ $HOME/git/repo/$target/$target"-"$version.zip
 echo "Copying changelog.txt"
-/bin/cp -rf changelog.txt $HOME/git/repo/$1/changelog-$2.txt
+/bin/cp -rf changelog.txt $HOME/git/repo/$target/changelog-$version.txt
+echo "Copying addon.xml"
+/bin/cp -rf addon.xml $HOME/git/repo/$target/addon.xml
+echo "Copying icon.png"
+/bin/cp -rf icon.png $HOME/git/repo/$target/icon.png
 cd $HOME/git/repo/
 echo "Creating addons.xml"
 ./update.py
