@@ -1,0 +1,1 @@
+ruuk's XBMC addon repository for bleeding edge and likely buggy :) versions.
